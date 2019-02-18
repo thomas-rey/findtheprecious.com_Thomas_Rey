@@ -1,0 +1,54 @@
+#gandalf_frame
+{
+    height: 140px;
+    width: 140px;
+    background-image: url('integration_gandalf.png');
+    background-size:cover;
+    opacity: 0.5;
+}
+.reward_text
+{
+    background-color :white;
+    opacity: 0.9;
+    font-size: 18px;
+    font-family: arial;
+    text-align: center;
+    display: inline-block;
+    margin-top:10px;
+    margin-left: 10px;
+    border-radius: 7px;
+    width: 120px;
+}
+
+.reward_text span
+{
+    color: orange;
+}
+
+#gandalf_frame h3
+{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    margin: auto;
+    text-align: center;
+}
+
+#gandalf_frame:hover
+{
+    opacity: 1.0;
+    transition: opacity 2000ms;
+}
+
+#gandalf_frame:hover .reward_text
+{
+   opacity: 0;
+   transition: 1500ms; 
+}
+
+#gandalf_frame:hover h3
+{
+   font-size: 14px;
+   transition: 1000ms;
+   transform :translate(0,35px);
+}
